@@ -1,5 +1,5 @@
 url: "http://dustinpeerce.com" # the base hostname & protocol for your site
-baseurl: /premier-bookkeeping/
+baseurl: "/premier-bookkeeping"
 
 # Site settings
 title: Awesome Title
