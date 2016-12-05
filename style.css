@@ -1,3 +1,19 @@
 ---
 layout: style
 ---
+
+header .header-color-layer {
+	background-color: rgba(255, 181, 65, 0.4);
+}
+
+.intro-heading, .intro-lead-in {
+	text-shadow: 2px 3px 8px #000;
+}
+
+footer span.address {
+	font-size: 0.9em;
+} 
+
+footer .row .extra-padding {
+	padding: 10px 0;
+}

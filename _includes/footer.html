@@ -1,10 +1,10 @@
   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 extra-padding">
                     <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 extra-padding">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -12,13 +12,15 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
+                <div class="col-md-2 extra-padding">
+                    <span class="phone-number"><i class="fa fa-phone"></i> (502) 352-9134</span>
+                </div>
+                <div class="col-md-2 extra-padding">
+                    <span class="address">
+                        1 Physicians Park Unit 1A <br>
+                        Frankfort, KY 40601 <br>
+                        United States <br>
+                    </span>
                 </div>
             </div>
         </div>
